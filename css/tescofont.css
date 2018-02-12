@@ -1,0 +1,57 @@
+/* @font: tesco,Helvetica,Arial,sans-serif; */
+
+@font-face {
+  font-family: "tesco";
+  font-style: normal;
+  font-weight: 300;
+  src: url(fonts/TESCOModern-Light-web.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: "tesco";
+  font-style: italic;
+  font-weight: 300;
+  src: url(fonts/TESCOModern-LightItalic-web.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: "tesco";
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/TESCOModern-Regular-web.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: "tesco";
+  font-style: italic;
+  font-weight: 400;
+  src: url(fonts/TESCOModern-Italic-web.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: "tesco";
+  font-style: bold;
+  font-weight: 600;
+  src: url(fonts/TESCOModern-Medium-web.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: "tesco";
+  font-style: italic;
+  font-weight: 600;
+  src: url(fonts/TESCOModern-MediumItalic-web.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: "tesco";
+  font-style: bold;
+  font-weight: 700;
+  src: url(fonts/TESCOModern-Bold-web.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: "tesco";
+  font-style: italic;
+  font-weight: 700;
+  src: url(fonts/TESCOModern-BoldItalic-web.woff2) format('woff2');
+}

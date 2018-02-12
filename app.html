@@ -4,7 +4,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>TableChamp</title>
 	<link rel="stylesheet" type="text/css" charset="utf-8"  media="screen, projection" href="css/tablechamp.css" />
-	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,600" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/tescofont.css" />
 </head>
 <body>
 	<div class="message"></div>
@@ -42,8 +42,11 @@
 	<!-- JS Templates -->
 	<script type="text/html" id="appHeader">
 		<a href="#" class="c-button c-button--md c-button--primary right add-score"><%=addScore%></a>
+		<div class="logo">
+			<img src="images/logo.svg" alt="Tesco Logo">
+		</div>
 		<div class="name">
-			<span class="org"></span>
+			<!-- <span class="org"></span> -->
 			<span class="game-type"></span>
 		</div>
 		<div class="header-block">
@@ -351,21 +354,21 @@
 			body { background: <%=c4%>; }
 
 			/* Links */
-			.c-button--link { 
+			.c-button--link {
   				background: transparent;
   				border: transparent;
   				color: <%=c1%>;
   			}
   			.c-button--link:active,
   			.c-button--link:focus,
-  			.c-button--link:hover { 
+  			.c-button--link:hover {
   				background: transparent;
   				border: transparent;
   				color: <%=c0%>;
   			}
-  			
+
 			/* Primary */
-  			.c-button--primary { 
+  			.c-button--primary {
   				background: transparent;
   				border-color: <%=c5%>;
   				color: <%=c5%>;
@@ -375,7 +378,7 @@
   			.c-button--primary:hover {
   				background: <%=c5%>;
   				border-color: <%=c5%>;
-  				color: <%=c0%>;
+  				color: <%=c4%>;
   				text-decoration: none;
   			}
 		</style>
